@@ -5,6 +5,7 @@ const galleryListRef = document.querySelector("ul.js-gallery");
 const modalImageRef = document.querySelector('img.lightbox__image');
 const modalWindowRef = document.querySelector('div.js-lightbox');
 const closeModalBtnRef = document.querySelector('button[data-action="close-lightbox"]');
+const modalOverlayRef = document.querySelector('div.lightbox__overlay');
 let dataIndex = 0;
 const imagesItems = gallery
   .map((images) => `<li class="gallery__link">
